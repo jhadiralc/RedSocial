@@ -4,14 +4,15 @@ import { getFirestore, collection, addDoc, getDocs, getDoc, onSnapshot, deleteDo
 import { getStorage, ref, getDownloadURL, uploadBytes } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-storage.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCvxv85SHoDCIqYyFGy04eplrAMkjZVLoU",
-    authDomain: "proyecto-u4-1bbe1.firebaseapp.com",
-    projectId: "proyecto-u4-1bbe1",
-    storageBucket: "proyecto-u4-1bbe1.appspot.com",
-    messagingSenderId: "232521822491",
-    appId: "1:232521822491:web:f33ec6ebf15c51b566e3be",
-    measurementId: "G-N3KJVZR8MC"
+    apiKey: "AIzaSyD8yQ9fj9VhNLd8jQuCMuoMWXeTxhzCfeM",
+    authDomain: "starshub-5b5b4.firebaseapp.com",
+    projectId: "starshub-5b5b4",
+    storageBucket: "starshub-5b5b4.firebasestorage.app",
+    messagingSenderId: "733227792498",
+    appId: "1:733227792498:web:63d8e55cfd3d170f0baaeb",
+    measurementId: "G-J93W3H3EWN"
 };
+
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
